@@ -26,10 +26,10 @@ end
 
 @store2.employees.create(first_name: "Bob", last_name: "Beniamin", hourly_rate: 30)
 
-@store4.employees.create(first_name: "Violet", last_name: "Smith", hourly_rate: 10)
+# @store5.employees.create(first_name: "Violet", last_name: "Smith", hourly_rate: 10)
 
-@store4.employees.create(first_name: "Sandy", last_name: "Beniamin", hourly_rate: 60)
+# @store5.employees.create(first_name: "Sandy", last_name: "Beniamin", hourly_rate: 60)
 
-@store6.employees.create(first_name: "Kevin", last_name: "Dale", hourly_rate: 80)
+# @store6.employees.create(first_name: "Kevin", last_name: "Dale", hourly_rate: 80)
 
-@store6.employees.create(first_name: "Mary", last_name: "Howard", hourly_rate: 60)
+# @store6.employees.create(first_name: "Mary", last_name: "Howard", hourly_rate: 60)

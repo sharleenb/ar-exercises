@@ -10,3 +10,20 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+class Employee
+  validates :first_name, presence: true
+  validates :last_name, presence: true
+  validates :store, presence: true
+  validates :hourly_rate, :inclusion => 40..200
+end
+
+class Store
+  validates :name, length: {minimum: 3}
+  validates :annual_revenue, numericality: { only_numeric: true }
+end
+
+store10 = Store.create(name: 'Burnaby')
+
+
+puts store10.name
